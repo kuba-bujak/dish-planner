@@ -1,0 +1,64 @@
+[
+	{
+	  "name": "Sałatka z krewetkami",
+	  "ingredients": [
+		 { "name": "krewetki", "amount": 500, "measurement": "g" },
+		 { "name": "sałata lodowa", "amount": 1, "measurement": "sztuka" },
+		 { "name": "pomidor", "amount": 2, "measurement": "sztuki" },
+		 { "name": "ogórek", "amount": 1, "measurement": "sztuka" },
+		 { "name": "oliwa z oliwek", "amount": 3, "measurement": "łyżki" },
+		 { "name": "sok z cytryny", "amount": 1, "measurement": "łyżka" }
+	  ],
+	  "steps": [
+		 "Obierz krewetki i gotuj je przez 3-4 minuty.",
+		 "Pokrój sałatę, pomidory i ogórka na drobne kawałki.",
+		 "Wymieszaj wszystkie składniki w misce.",
+		 "Dodaj oliwę z oliwek i sok z cytryny.",
+		 "Delikatnie wymieszaj i podawaj."
+	  ]
+	},
+	{
+	  "name": "Ratatouille",
+	  "ingredients": [
+		 { "name": "bakłażan", "amount": 1, "measurement": "sztuka" },
+		 { "name": "cukinia", "amount": 1, "measurement": "sztuka" },
+		 { "name": "papryka czerwona", "amount": 1, "measurement": "sztuka" },
+		 { "name": "pomidor", "amount": 3, "measurement": "sztuki" },
+		 { "name": "cebula", "amount": 1, "measurement": "sztuka" },
+		 { "name": "czosnek", "amount": 2, "measurement": "ząbki" },
+		 { "name": "bazylia", "amount": 1, "measurement": "garść" },
+		 { "name": "sól", "amount": 1, "measurement": "łyżeczka" },
+		 { "name": "pieprz", "amount": 1, "measurement": "łyżeczka" },
+		 { "name": "oliwa z oliwek", "amount": 2, "measurement": "łyżki" }
+	  ],
+	  "steps": [
+		 "Pokrój wszystkie warzywa na małe kawałki.",
+		 "Rozgrzej oliwę z oliwek w garnku.",
+		 "Wrzuć cebulę i czosnek, smaż przez 2 minuty.",
+		 "Dodaj bakłażana, cukinię, paprykę i pomidory.",
+		 "Dopraw solą, pieprzem i dodaj bazylię.",
+		 "Gotuj na małym ogniu przez 20-30 minut."
+	  ]
+	},
+	{
+	  "name": "Kurczak z warzywami na patelni",
+	  "ingredients": [
+		 { "name": "filety z kurczaka", "amount": 4, "measurement": "sztuki" },
+		 { "name": "ziemniaki", "amount": 500, "measurement": "g" },
+		 { "name": "papryka żółta", "amount": 1, "measurement": "sztuka" },
+		 { "name": "cebula", "amount": 1, "measurement": "sztuka" },
+		 { "name": "czosnek", "amount": 3, "measurement": "ząbki" },
+		 { "name": "sól", "amount": 1, "measurement": "łyżeczka" },
+		 { "name": "pieprz", "amount": 1, "measurement": "łyżeczka" },
+		 { "name": "papryka słodka w proszku", "amount": 1, "measurement": "łyżeczka" },
+		 { "name": "olej rzepakowy", "amount": 2, "measurement": "łyżki" }
+	  ],
+	  "steps": [
+		 "Pokrój kurczaka na kawałki, posól, popieprz i posyp papryką słodką.",
+		 "W rondlu rozgrzej olej i smaż kurczaka na złoty kolor.",
+		 "Dodaj pokrojoną cebulę i czosnek, smaż przez 2 minuty.",
+		 "Dodaj pokrojoną paprykę i ziemniaki.",
+		 "Gotuj na średnim ogniu przez 20-25 minut, aż warzywa i kurczak będą gotowe."
+	  ]
+	}
+ ]
