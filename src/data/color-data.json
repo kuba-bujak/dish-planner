@@ -1,0 +1,26 @@
+[
+  {
+    "id": "0175d1f0-a8c6-41bf-8d02-df5734d829a4",
+    "title": "ocean o zmierzchu",
+    "color": "#00c4e2",
+    "rating": 5
+  },
+  {
+    "id": "2f8c1b7a-7e3e-4ea7-8a86-3a33a7c9e39d",
+    "title": "nocne niebo",
+    "color": "#0a0a2a",
+    "rating": 4
+  },
+  {
+    "id": "84a70e21-0dcb-4cb1-850a-268bc86a98a3",
+    "title": "światło księżyca",
+    "color": "#aab9ff",
+    "rating": 4
+  },
+  {
+    "id": "c9b5876e-462a-4f0f-a8cb-2f04fc0aecc2",
+    "title": "mgliste góry",
+    "color": "#7f7f7f",
+    "rating": 3
+  }
+]
