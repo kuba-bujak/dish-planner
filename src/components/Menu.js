@@ -1,5 +1,5 @@
 import React from "react";
-import Recipe from "./Recipe";
+import Recipe from "./dishes_list/Recipe";
 
 function Menu({ recipes }) {
   return (
