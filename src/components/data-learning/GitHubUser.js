@@ -23,7 +23,7 @@ const query = `
 
 const client = new GraphQLClient("https://api.github.com/graphql", {
   headers: {
-    Authorization: `Bearer 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`,
+    Authorization: `Bearer <YOUR_OWN_PRIVATE_TOKEN>`,
   },
 });
 
@@ -95,8 +95,6 @@ function SearchForm({ value, onSearch }) {
     </form>
   );
 }
-
-function List ()
 
 function Fetch({
   uri,
