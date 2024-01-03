@@ -7,6 +7,7 @@ import FetchLearning from "./components/data-learning/FetchLearning";
 import UserManager from "./components/data-learning/GitHubUser";
 import ArrayDisplayer from "./components/data-learning/ArrayDisplayer";
 import FakeListLearning from "./components/data-learning/FakeListLearning";
+import App from "./components/Suspense/App";
 
 export const ColorContext = createContext();
 
@@ -19,6 +20,7 @@ root.render(
     {/* <UserManager />
     <ArrayDisplayer /> */}
     {/* <FakeListLearning /> */}
-    <UserManager />
+    {/* <UserManager /> */}
+    <App />
   </React.StrictMode>
 );

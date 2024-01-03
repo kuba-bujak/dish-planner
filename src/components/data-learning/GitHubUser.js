@@ -111,52 +111,52 @@ function Fetch({
 export default function UserManager() {
   // ----------------- Classic Version ----------------- //
 
-  // const [login, setLogin] = useState("kuba-bujak");
-  // const [repo, setRepo] = useState("My-Portfolio");
+  const [login, setLogin] = useState("kuba-bujak");
+  const [repo, setRepo] = useState("My-Portfolio");
 
-  // const handleSearch = (login) => {
-  //   if (login) return setLogin(login);
-  //   setLogin("");
-  //   setRepo("");
-  // };
+  const handleSearch = (login) => {
+    if (login) return setLogin(login);
+    setLogin("");
+    setRepo("");
+  };
 
-  // if (!login) return <SearchForm value={login} onSearch={handleSearch} />;
+  if (!login) return <SearchForm value={login} onSearch={handleSearch} />;
 
-  // return (
-  //   <div>
-  //     <h1>User Manager</h1>
-  //     <SearchForm value={login} onSearch={handleSearch} />
-  //     {login && <GitHubUser login={login} />}
-  //     {login && <UserRepos login={login} repo={repo} onSelect={setRepo} />}
-  //     {login && repo && <RepositoryReadme login={login} repo={repo} />}
-  //   </div>
-  // );
+  return (
+    <div>
+      <h1>User Manager</h1>
+      <SearchForm value={login} onSearch={handleSearch} />
+      {login && <GitHubUser login={login} />}
+      {login && <UserRepos login={login} repo={repo} onSelect={setRepo} />}
+      {login && repo && <RepositoryReadme login={login} repo={repo} />}
+    </div>
+  );
 
   // ----------------- GraphQL Version ----------------- //
 
-  const [login, setLogin] = useState("kuba-bujak");
-  const [userData, setUserData] = useState();
+  // const [login, setLogin] = useState("kuba-bujak");
+  // const [userData, setUserData] = useState();
 
-  useEffect(() => {
-    client
-      .request(query, { login })
-      .then(({ user }) => user)
-      .then(setUserData)
-      .catch(console.error);
-  }, [client, query, login]);
+  // useEffect(() => {
+  //   client
+  //     .request(query, { login })
+  //     .then(({ user }) => user)
+  //     .then(setUserData)
+  //     .catch(console.error);
+  // }, [client, query, login]);
 
-  if (!userData) return <p>Wczytywanie...</p>;
+  // if (!userData) return <p>Wczytywanie...</p>;
 
-  return (
-    <>
-      <SearchForm value={login} onSearch={setLogin} />
-      <UserDetails {...userData} />
-      <p>{userData.repositories.totalCount} - repos</p>
-      {/* TODO: Create List component */}
-      <List
-        data={userData.repositories.nodes}
-        renderItem={(repo) => <span>{repo.name}</span>}
-      />
-    </>
-  );
+  // return (
+  //   <>
+  //     <SearchForm value={login} onSearch={setLogin} />
+  //     <UserDetails {...userData} />
+  //     <p>{userData.repositories.totalCount} - repos</p>
+  //     {/* TODO: Create List component */}
+  //     <List
+  //       data={userData.repositories.nodes}
+  //       renderItem={(repo) => <span>{repo.name}</span>}
+  //     />
+  //   </>
+  // );
 }
